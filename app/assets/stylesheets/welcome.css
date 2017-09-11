@@ -132,7 +132,7 @@ li.menu_item:hover {
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
-  opacity: 0.8;
+  opacity: 0.7;
   clear: both;
 }
 
@@ -160,9 +160,18 @@ li.menu_item:hover {
   background-size: cover;
 }
 
+/*About Page*/
+
+#roster {
+  clear: both;
+}
+
+
 @font-face {
   font-family: "Harabara";
   src: url(/assets/Harabara.ttf) format("truetype");
 }
+
+
 
 

@@ -5,6 +5,8 @@ Rails.application.routes.draw do
   get 'resources', to: 'welcome#resources'
   get 'contact-us', to: 'welcome#contact-us'
 
+  get 'error', to: 'welcome#error'
+
   resources :articles
 
   root 'welcome#index'

@@ -1,3 +1,32 @@
-<h1>Contact Us</h1>
+<head>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+	<link type="text/css" rel="stylesheet" href="welcome.css">
+</head>
 
-<%= link_to 'Back', '/home' %>
+<body>
+
+	<%= render "header" %>
+
+	<!--Main Container-->
+	<div id="main_container" style="height: 100%;">
+
+		<div class="parallax parallax1">
+
+			<div id="main_title" style="font-size: 5em;">
+				<span class="button"><br>Contact Us</span>
+			</div>
+
+		</div>
+		
+		<div id="redbar" style="width: 100%; background-color: #E11D37; height: 8px">
+		</div>
+
+		<h1>Contact Us</h1>
+
+		<%= link_to 'Back', '/home' %>
+
+		<%= render "footer" %>
+	</div>
+
+</body>
