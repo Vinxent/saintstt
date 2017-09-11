@@ -186,10 +186,40 @@ li.menu_item:hover {
 
 /*About Page*/
 
+#season_title {
+  background-color: #E11D37;
+  width: 96%;
+  height: 10%;
+  text-align: center;
+  padding: 2%
+
+}
+.season_title {
+  font-size: 3em;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: #fff;
+}
+
 #roster {
   clear: both;
 }
 
+ul.about_container {
+  list-style-type: none;
+  clear: both;
+}
+
+li.about_subheader {
+  font-family: sans-serif;
+  text-align: center;
+  clear: both;
+}
+
+li.names {
+  display: table;
+  margin: 0 auto;
+}
 
 @font-face {
   font-family: "Harabara";
