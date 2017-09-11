@@ -65,12 +65,12 @@ li.menu_item:hover {
 }
 
 .fa {
-	padding: 12px;
+	padding: 8%;
   font-size: 5px;
   width: 15px;
   text-align: center;
   text-decoration: none;
-  margin: 0% 8% 0% 0%;
+  margin: 0% 2.8% 0% 0%;
   border-radius: 5px;
   float: right;
 }
