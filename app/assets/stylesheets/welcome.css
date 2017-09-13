@@ -103,7 +103,7 @@ li.menu_item:hover {
 	background-color: #E8E8E8;
 }
 
-/*Main Container*/
+/*Parallax Container*/
 
 #main_title {
 	width: 70%;
@@ -191,6 +191,23 @@ li.menu_item:hover {
   background-size: cover;
 }
 
+#info {
+  font-family: 'Harabara';
+  height: 500px; 
+  background-color: white; 
+}
+
+#info2 {
+  font-family: 'Harabara';
+  height: 500px; 
+  background-color: #E11D37;
+}
+
+#info3 {
+  font-family: 'Harabara';
+  height: 500px; 
+}
+
 /*About Page*/
 
 #season_title {
@@ -229,10 +246,9 @@ li.names {
 }
 
 @font-face {
-  font-family: "Harabara";
-  src: url(/assets/Harabara.ttf) format("truetype");
-}
-
+  font-family: 'Harabara';
+  src: url('fonts/Harabara.ttf') format('truetype'),
+} 
 
 
 
